@@ -1,12 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Phone Store</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>enter </h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa asperiores iste id qui porro saepe aperiam esse voluptatum eligendi, voluptatem consequuntur excepturi hic recusandae quis dolorem reiciendis tempora veniam obcaecati.</p>
+    <header>
+        <h1>Phone Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Temukan HP Impianmu</h2>
+        <p>Berbagai pilihan HP dengan harga terbaik</p>
+        <button onclick="showProducts()">Lihat Produk</button>
+    </section>
+
+    <section class="products">
+        <h2>Produk Terbaru</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="HP 1">
+                <h3>Samsung Galaxy S24</h3>
+                <p>Rp 15.000.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="HP 2">
+                <h3>iPhone 15 Pro</h3>
+                <p>Rp 20.000.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/200" alt="HP 3">
+                <h3>Xiaomi 14 Ultra</h3>
+                <p>Rp 12.000.000</p>
+                <button>Beli Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Phone Store. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
